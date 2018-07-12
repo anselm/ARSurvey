@@ -1,46 +1,58 @@
 [
 
+
+
 {
-"title":"3D Scanning",
-"sponsor":"Author2",
+"title":"3D Tracking and Reconstruction",
+"sponsor":"Author",
 "art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1440&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F05%2Ftech_data_image.jpg%3Fquality%3D85",
-"descr":"3d reconstruction and tracking underpins much of the rest of the industry. There remain hard challenges here in computation, volume of data, sensor fusion, real time performance, pose recovery and so on.",
+"descr":"It's possible today to more easily write a tracker by leveraging ARKit or ARCore. Since pose is already provided the math to solve for the position in space of a given feature is reduced. Arguably we will see many new room reconstruction tools that mesh pointclouds or that offer persistence shortly. At the same time doing this well remains a challenge. With or without the assistance of ARKit/ARCore PTAM and Infinitam are good options here. Likely we expect Apple and others to soon provide this.",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, support, infrastructure"
+"tags":"support, infrastructure"
+},
+
+{
+"title":"Room Scale Meshing",
+"sponsor":"Author",
+"art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1440&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F05%2Ftech_data_image.jpg%3Fquality%3D85",
+"descr":"Beyond tracking itself there's a role for standalone apps or libraries to formally remesh and texture a room sized space. See https://twitter.com/nobbis/status/972298968574013440",
+"style":"border:3px solid #ccffee",
+"tags":"support, infrastructure"
 },
 
 {
 "title":"Semantic Segmentation",
 "sponsor":"VC",
 "art":"https://cdn-images-1.medium.com/max/1600/1*pKKYS17lOwPsreUVTak37g.png",
-"descr":"Distinct from relocalization it appears like there's quite a bit of value (and interest) in segmenting meshes into distinct objects and labelling those objects. This can be used for product search and discovery such as identifying vehicles, or products in stores. It looks like the value here is in providing more sophisticated machine reasoning at a higher level of abstraction - one that is more similar to how humans see and interact with the world.",
+"descr":"Distinct from relocalization it appears like there's quite a bit of value (and interest) in segmenting meshes into distinct objects and labelling those objects. This can be used for product search and discovery such as identifying vehicles, or products in stores. It looks like the value here is in providing more sophisticated machine reasoning at a higher level of abstraction - one that is more similar to how humans see and interact with the world. At it's simplest https://www.youtube.com/watch?v=-aSIfHl0Me8 and https://medium.com/nanonets/how-to-do-image-segmentation-using-deep-learning-c673cc5862ef",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, support, infrastructure, privacy, cloud"
+"tags":"support, infrastructure, privacy, cloud"
 },
 
 {
 "title":"AR Relocalization Server",
 "sponsor":"VC",
 "art":"https://c1.staticflickr.com/3/2929/14309912719_d623ca0f72_b.jpg",
-"descr":"A private or cloud hosted service which provides relocalization support for AR clients. Clients would submit images, location information, point clouds and other data and get back exact pose information. This server could also bundle management of virtual objects as well (although that can be a separate service). A home, campus, organization or community could use a service like this to provide on-campus or on-site contextual navigation, information about the location of colleagues and suchlike. It seems likely that applications like this will emerge and that standards will be needed to allow interoperability between different clients and servers. There will also be privacy concerns. There's an expectation that companies like Apple or Google may attempt to provide relocalization services at city scale but there does seem to be an opportunity for private services for cases where organizations don't want to share the interior of their offices and every detail about their internal business affairs with a third party.",
+"descr":"A private or cloud hosted service which provides relocalization support for AR clients. Clients would submit images, location information, point clouds and other data and get back exact pose information. This server could also manage virtual objects as well (although that can be a separate service). A home, campus, organization or community could use a service like this to provide on-campus or on-site contextual navigation, information about the location of colleagues and suchlike. It seems likely that applications like this will emerge and that standards will be needed to allow interoperability between different clients and servers. There will also be privacy concerns. There's an expectation that companies like Apple or Google may attempt to provide relocalization services at city scale but there does seem to be an opportunity for private services for cases where organizations don't want to share the interior of their offices and every detail about their internal business affairs with a third party.",
 "style":"border:3px solid #008800",
-"tags":"usecase, support, infrastructure, privacy, cloud"
+"tags":"support, infrastructure, privacy, cloud"
 },
 
 {
 "title":"AR Content Server",
 "sponsor":"VC",
-"descr":"The web is made up of different content providers that over time have become authoritative for certain kinds of data. Likely those same providers - such as Wikipedia or Yelp - will also become authoritative for place based information. Civic institutions at the State and Regional level will likely also want to offer actual place based data. For example cities will want to offer city layers that are authoritative for civic services, street signage, street closures, architectural visualizations, sewage, gas and electrical lines, parking regulations, garbage pickup schedules, zoning, speed limits, traffic lights and suchlike. There will likely be quite a bit of business in migrating existing datasets to AR. As well, like Wikipedia, such systems are likely to be as much social engineering as code - these systems represent processes for collecting, managing and sharing information with trust.",
+"art":"https://c1.staticflickr.com/3/2929/14309912719_d623ca0f72_b.jpg",
+"descr":"Distinct from relocalization - serving content itself may be a valuable service. The web is made up of different content providers that over time have become authoritative for certain kinds of data. Likely those same providers - such as Wikipedia or Yelp - will also become authoritative for place based information. Civic institutions at the State and Regional level will likely also want to offer actual place based data. For example cities will want to offer city layers that are authoritative for civic services, street signage, street closures, architectural visualizations, sewage, gas and electrical lines, parking regulations, garbage pickup schedules, zoning, speed limits, traffic lights and suchlike. There will likely be quite a bit of business in migrating existing datasets to AR. As well, like Wikipedia, such systems are likely to be as much social engineering as code - these systems represent processes for collecting, managing and sharing information with trust.",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, support, infrastructure"
+"tags":"support, infrastructure"
 },
 
 {
-"title":"Search",
+"title":"Smart Search",
 "sponsor":"",
-"descr":"Most likely services like Google will provide place based search, scoring and filtering on place based content. There's likely to be something of a competition or race between providers to provide authoritative baseline information for retail stores and venues. Place based discovery of trustworthy 'anchors' is critical for being able to branch out to other services. The Nike Campus for example may host their own place based data services but to discover that those services exist at that venue one will likely first use Google.",
+"descr":"There may be value in filtering local objects by some scoring mechanism. Virtual objects could be discovered by machine based recognition of the physical space, by being explicitly added by users, and/or by some kind of scoring based on use/value. There will be many objects so some kind of filtering is needed for user search. Most likely services like Google will provide place based search, scoring and filtering on place based content. There's likely to be something of a competition or race between providers to provide authoritative baseline information for retail stores and venues. Place based discovery of trustworthy 'anchors' is critical for being able to branch out to other services. The Nike Campus for example may host their own place based data services but to discover that those services exist at that venue one will likely first use Google.",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, support, infrastructure"
+"tags":"support, infrastructure"
 },
 
 {
@@ -49,41 +61,165 @@
 "art":"https://static.dezeen.com/uploads/2016/05/hyper-reality-movie-keiichi-matsuda-virtual-physical-reality-future-vision-media-concept_dezeen_936_0.jpg",
 "descr":"There appears to be some need for an augmented reality desktop where multiple agents written by different organizations can share visible real-estate without colliding or obstructing the view of each other. A user may have a weather agent in a corner of their visual field, and a navigation agent providing directions, a friend finder, a translation engine and other services all running and providing enhanced visual information at the same time. Some kind of shared operating environment provides services for these applications, sandboxes them, provides security and privacy for the user, and perhaps allows agents to interact with each other as well as the user based on user permissions. This may naturally fit into the role of a neutral third party to provide such a user experience. It requires agreement among agent developers to conform to API services offered by the desktop.",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, support, infrastructure, desktop"
+"tags":"support, infrastructure, desktop"
 },
 
 {
-"title":"Professional Authoring Tools",
+"title":"Body Capture",
 "sponsor":"",
-"descr":"Unity3D and such tools appear to be the dominant way that developers will build AR experiences. However AR experiences need to work together and yet be sandboxed from each other. These tools will have to adapt to work within more open environments and that will mean being more standards based.",
+"descr":"Industry has largely focused largely on typing as the primary input mechanism. With AR/VR body gestures are also becoming more important. Face input is just beginning to be considered. In general we want to pour the entire human body in as an input controller. What's needed here is a public formal definition of how to transport those inputs in a standards based way from say a publisher such as a Kinect to a web app or other consuming apps.",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, authoring, annotation, user"
+"tags":"support, infrastructure"
 },
 
 {
-"title":"WYSIWYG Authoring Tools",
+"title":"Face Capture",
+"sponsor":"",
+"descr":"In a fashion similar to general body capture - focusing on just the face it's possible to treat the human face as an input controller for driving behavior in VR just like any other input control. The most obvious thing to do is to drive a puppet face with your face as input. This could help provide a sense of presence and realism to VR or AR interactions. There is one company that is doing something very similar here - http://facerig.com. And lightweight computer vision algorithms for capturing face inputs already do exist such as https://tastenkunst.github.io/brfv4_javascript_examples .",
+"style":"border:3px solid #008800",
+"tags":"support, infrastructure"
+},
+
+{
+"title":"Object/People Recognizer",
+"sponsor":"",
+"descr":"Recognizes objects in the world for you - both for vision impaired and for providing super-powers in general. This could extend from advising on the placement of objects in a garage, workshop or other messy complex setting to recognizing faces in a crowd",
+"style":"border:3px solid #ccffee",
+"tags":"support, infrastructure"
+},
+
+{
+"title":"Heavyweight Authoring",
+"sponsor":"",
+"descr":"There are already good high performance pipelines for programming and assembling content as native compiled bundles (Unity3D for example). One problem is that distribution of these products tends to be censored by Apple and Google - so free speech is limited. Another problem is that AR experiences need to work together in one view and yet be sandboxed from each other. Tools will have to adapt to work within more open environments and that will mean being more standards based.",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Lightweight Authoring + Viewer",
 "sponsor":"",
 "descr":"The term WYSIWYG is used to distinguish between professional developer tools and consumer developer tools. The emphasis at a consumer level is on authoring in context and being able to download behaviors plug them together without being a programmer. Emerging VR tools such as SoundStageVR, Tiltbrush and Supercraft could eventually support AR as well and are examples here. This extends beyond placing geometry and post-it notes. For example a volunteer firestation may have lightweight training tutorials attached to various pieces of equipment so that volunteers can engage in self directed learning. Tutorials could be written by bespoke local web shops but there may be a demand for being able to do some of this without paying a third party. There's something of an implication that mass market consumer authoring tools take care of issues like persistence, hosting, sharing - so in some senses these tools are literally allowing users to work in place on the real world and share instantly - which in turn implies a set of back end services.",
 "url":"https://supermedium.com/supercraft",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, authoring, annotation, user"
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Training Authoring + Viewer",
+"sponsor":"Mozillian",
+"descr":"Similar to other lightweight authoring tools but with a focus on building training tutorials. See http://scopear.com and http://learnbrite.com. Also see WYSIWYG authoring. Lightweight behavior interactions are also needed.",
+"url":"https://scopear.com",
+"style":"border:3px solid #008800",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Post-it Note Authoring + Viewer",
+"sponsor":"Mozillian",
+"descr":"This is a place-holder for the most generic case of AR markup. Allowing multiple participants to drop objects into an office or some other room scale indoor setting (to avoid technical and privacy issues with outdoor settings for now). It's a common baseline case and should be tested. These objects would have no behaviors - they would just exist.",
+"url":"http://youar.com",
+"style":"border:3px solid #008800",
+"tags":"authoring, persistence, basic"
+},
+
+{
+"title":"Mind Palace Authoring + Viewer",
+"sponsor":"",
+"style":"border:3px solid #ccffee",
+"art":"https://www.wikihow.com/images/thumb/7/7b/Build-a-Memory-Palace-Step-10-Version-2.jpg/aid47287-v4-728px-Build-a-Memory-Palace-Step-10-Version-2.jpg",
+"descr":"A personal application which provides a way to organize your own digital exhaust; photos, receipts, articles, favorite places and suchlike. Not necessarily AR.",
+"tags":"authoring, information, organization, app"
+},
+
+{
+"title":"Home IoT Authoring + Viewer",
+"sponsor":"Mozillian",
+"descr":"With roomscale persistence and some room understanding it should be possible to provide a through the phone view of IOT devices in the home. It may be possible to interact with those devices, or even wire them together such as routing audio to different speakers or setting the Nest economy mode, or checking the status of water sensors. This could work even when offsite as a remote home management system.",
+"url":"https://scopear.com",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
 },
 
 {
 "title":"Identity Personalization",
 "sponsor":"",
-"descr":"A tool which lets you make an avatar.",
+"descr":"A tool which lets you make an avatar - intended for sharing on social networks. Could be used in Hubs for example.",
 "style":"border:3px solid #ccffee",
-"tags":"usecase, authoring"
+"tags":"authoring"
 },
 
 {
-"title":"Shared online spaces",
+"title":"Furniture Previs",
+"sponsor":"Mozillian",
+"descr":"Given room understanding it's possible to place virtual objects in context. This use case is clearly emerging already.",
+"url":"https://scopear.com",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"clothing Previs",
+"sponsor":"Mozillian",
+"descr":"Given body understanding it's possible drape clothing onto the body. We've seen this use case already and it's noted here simply because it will be a common use case.",
+"url":"https://scopear.com",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Forensic Crime Reconstruction",
+"sponsor":"Mozillian",
+"descr":"A specific use case for an AR authoring tool will be to help provide clues in context to recreate crime scenes. This could include animating the scene based on known facts and participants, marking trajectories of bullets or weapons, and also marking clues for further inspection",
+"url":"https://scopear.com",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Movie Previs",
+"sponsor":"Mozillian",
+"descr":"Similar to crime reconstruction it's possible to do previsualization of movies in context. Existing 3D content can be placed and blended with live actors to provide an early sense of the final movie output. There are already commercial companies that offer this such as https://www.shotprofessional.com",
+"url":"https://www.shotprofessional.com",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Spatial DJ Authoring + Viewing",
+"sponsor":"Mozillian",
+"descr":"There seems to be a recurring theme to have some kind of playful audio synchronized sequencing tool that mixes Augmented Reality with real world landscapes in a choreographed way. This is similar to basic authoring but there seems to be more of a focus on timing and artistic interpretation. Particle and shader effects on surfaces as well as sequencing and managing many many virtual objects at the same time make this use case somewhat unique.",
+"url":"",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Time Rewinding / Fraud Prevention",
+"sponsor":"Mozillian",
+"descr":"Being able to examine a current space in AR and then see how that space has changed over time - possibly with the assistance of machine learning / computer vision may be useful for a variety of forensic or crime reconstruction issues. This can range from simple theft to earthquake damage to validating a construction site compliance with a spec.",
+"url":"",
+"style":"border:3px solid #ccffee",
+"tags":"authoring, annotation, user"
+},
+
+{
+"title":"Multiplayer AR Escape Rooms",
+"sponsor":"Mozillian",
+"descr":"This is a riff on traditional escape rooms - where there are AR objects and possibly also real objects. For example one may have to defuse a real bomb with a remote operator providing off site expertise.",
+"url":"",
+"style":"border:3px solid #ccffee",
+"tags":"social, multiplayer"
+},
+
+
+{
+"title":"Multiplayer AR + Hubs",
 "sponsor":"Mozilla",
 "art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1920&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2018%2F02%2Fedgybees-hero-01.jpg%3Fquality%3D85",
 "descr":"Shared spaces as a foundation for other experiences. AR or VR. Mozilla Hubs is a good example here.",
-"style":"border:3px solid #ff0000",
-"tags":"usecase, social, multiplayer"
+"style":"border:3px solid #008800",
+"tags":"social, multiplayer"
 },
 
 {
@@ -91,19 +227,17 @@
 "sponsor":"",
 "style":"border:3px solid #ccffee",
 "art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1920&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2018%2F02%2Fedgybees-hero-01.jpg%3Fquality%3D85",
-"descr":"Allows an operator in the field to share site specific contextual telepresence with other participants who are remote. For example Search and Rescue teams could be in the field wearing appropriate cameras and relaying a view of their location back to other experts who are providing suggestions.",
+"descr":"Allows an operator in the field to share site specific contextual telepresence with other participants who are remote. For example Search and Rescue teams could be in the field wearing appropriate cameras and relaying a view of their location back to other experts who are providing suggestions.  See http://scopear.com .",
 "url":"http://www.thedrive.com/aerial/18872/ar-start-up-edgybees-raises-5-5m-to-bring-ar-platform-to-uav-first-response-industry",
-"tags":"usecase, social, multiplayer, app, civic, crisis, emergency, real-time, collaboration"
+"tags":"social, multiplayer, app, civic, crisis, emergency, real-time, collaboration"
 },
 
-{
-"title":"Mind Palace",
-"sponsor":"",
-"style":"border:3px solid #ccffee",
-"art":"https://www.wikihow.com/images/thumb/7/7b/Build-a-Memory-Palace-Step-10-Version-2.jpg/aid47287-v4-728px-Build-a-Memory-Palace-Step-10-Version-2.jpg",
-"descr":"A personal application which provides a way to organize your own digital exhaust; photos, receipts, articles, favorite places and suchlike. Not necessarily AR.",
-"tags":"usecase, education, information, organization, app"
-},
+
+
+
+
+
+
 
 {
 "title":"Support",
@@ -114,7 +248,7 @@
 },
 
 {
-"title":"Authoring",
+"title":"Authoring and Viewing",
 "style":"border:3px solid #ccffee",
 "descr":"Authoring includes basic location markup (points, post-it notes, virtual object placement, region demarciation, indicating places, indicating trajectories of people or objects.",
 "tags":"category",

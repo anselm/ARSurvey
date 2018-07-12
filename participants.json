@@ -6,7 +6,7 @@
 
 {
 "title":"VC",
-"art":"",
+"art":"https://www.participatorymodeling.org/sites/default/files/default_images/author_generic.jpg",
 "kind":"sponsor",
 "descr":"",
 "tags":"",
@@ -28,8 +28,16 @@
 },
 
 {
+"title":"Mozillian",
+"art":"https://pbs.twimg.com/profile_images/771714216860479488/pDZNwdM_.jpg",
+"kind":"sponsor",
+"descr":"",
+"tags":""
+},
+
+{
 "title":"Author",
-"art":"https://igx.4sqi.net/img/user/130x130/427-NGMWB5T4UF50XWJ1.jpg",
+"art":"http://www.gloucesterreview.co.uk/images/reporters/Generic.jpg",
 "kind":"sponsor",
 "descr":"",
 "tags":""
