@@ -1,0 +1,35 @@
+{
+"title":"Introduction",
+"descr":"How the AR Web will be won",
+"tags":"chapter",
+"kind":"prose",
+"children":[
+
+{
+"title":"Goals",
+"descr":"AR is at a pivotal moment where technology is almost consumer ready. This is similar to the emergence of the smartphone. At the same time it is not clear what the winning applications will be. This study is intended to provide insight into what developers should be focusing on a year out, and which applications will make the most difference to real users",
+"tags":""
+},
+
+{
+"title":"Methodology",
+"descr":"We interview AR developers and designers and review existing literature. Specifically we ask questions at two levels. First in terms of what people are building or what they want to build and specifically whom their customers are. Here questions are direct - 'What are you building?' and 'Who are your customers?'. Secondly at a meta level - 'How do you know who your customers are?' and 'What is your process for validating what you're building against your customers?' and 'Do you do user studies'? We're interested in knowing not just what developers are doing but how developers know what they know, and what process of discovery they themselves have built for knowing they are on the right track.",
+"tags":""
+},
+
+{
+"title":"Results",
+"descr":"This survey produces a list of use cases with specific features. Use cases that are different from each other, that cover a spectrum of categories (authoring, education, entertainment, enterprise). Use cases also meet a number of criteria in terms of feasibility, utility and audience size. Most AR technology demonstrations today fail to show real utility. They do showcase technical capabilities but the actual use cases themselves are not compelling. Roughly speaking we're looking for technology that can be used by people every day, that is dependable, that solves real world problems. Beyond enumerating use cases this study also analyses use cases looking for common patterns. Results at the analsyis level include a set of categories, an enumeration of kinds of users, stories and scenarios, general rules of thumb for developers.",
+"tags":""
+},
+
+{
+"title":"Diversity",
+"descr":"Special attention is taken to interview people from a broad spectrum of backgrounds and traits in order to mitigate biases in our perception. We're interested in building applications for all of humanity and proactively being conscious of out-groups, accessibility, gender issues, physical, cultural and neurological diversity.",
+"tags":""
+}
+
+]
+
+}
+

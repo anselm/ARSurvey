@@ -1,0 +1,26 @@
+
+body {
+ font-family: source sans pro,sans-serif;
+}
+
+a {
+ text-decoration: none;
+ color: #5c5cb8;
+}
+
+h1, h2, h3 {
+ color: #5c5cb8;
+ font-size: 2rem;
+ font-weight: 500;
+ line-height: 1.5;
+}
+
+h2 {
+ font-size: 1.60rem;
+ line-height: 1.0;
+}
+
+h3 {
+ font-size: 1.40rem;
+ line-height: 1.0;
+}

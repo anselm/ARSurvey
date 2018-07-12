@@ -1,0 +1,33 @@
+Interview with a Mozillian
+
+Thoughts about an AR Cloud?
+
+Not likely to exist as a single resource - at least not right now. We hear about efforts from Google, Microsoft and suchlike and it seems like these are siloed efforts where the data is owned by these respective companies.
+
+What feels more valuable is 'local information services' rather than a single cloud. In this scenario headsets find each other through local networks and build a local understanding of the world. There are a lot of people who won't want to share the intimate details of their home, office or lab. These individuals and organizations will have their own IT managed systems not unlike their own LAN networks and infrastructure. There will be the equivalent of an internal SQL database or internal application server, or private cloud services. This will be an IT managed infrastructure where the individuals or corporation control the uptime, latency and security.
+
+Within that local cloud will be the kinds of expectations that we have. Virtual information is positioned in the world that multiple participants can see and share. People will be able to pass virtual information to each other. There will be virtual gestures and menus for acting on the world (locally).
+
+Thoughts about user centered design?
+
+Coming from a design background, and an academic background there is an awareness of the idea of users and stories. In a new project an initial design language emerges, there's a product development cycle that is driven by a user centered design process. We collect user feedback, iterate on a user design, identify what 'success' is - often establishing some metrics such as "how many active users are there?" or "how many of our users were able to successfully use our product to accomplish something of their own?". We use fairly detailed personas to test our ideas against, and identifying personas is important [and will share some of these].
+
+How do you find, filter or choose users and stories?
+
+Here we get to a question of filters on the torrent of ideas we all have. As developers we often have a natural or personal interest in some scenario. That 'passion driven' perspective can encourage us to do some field work to validate our ideas.
+
+For example personally games and passive experiences have been done, so I'm more interested in creation tools.
+
+Another filter is that many OEMS do not want to build a browser, but also do not want to be downstream from a private browser vendor. They want to control but must deliver a high quality browser experience.
+
+What's interesting is that being at Mozilla the mandates are different from many companies. Mozilla gets to think about things in a more holistic way than many other companies. We can focus on development on the open web as a whole. We can fill in gaps in the tool chain for other developers. We can dedicate resources to helping other companies succeed where it benefits the open web and emerging technology. This is because browsers are for everyone, and the audience is everybody.Of course this can be a disconcertingly wide net when trying to identify user stories.
+
+Headsets are not evenly distributed yet to “everybody”. We can be a conscientious chooser about our partnerships. HTC and Oculus for example are both producing headsets aimed at slightly different audiences.
+
+Also Mozilla has to remain conscious of competing desires around success. Revenue is through searches and that is measured by daily active users. Success metrics for the short term are defined in terms of that bottom line. Of course longer term success metrics have to open up new spaces - and not just double down on current spaces. The web-payments system is an example. We want to foster other revenue models on the net aside from just advertising but nobody is going to enter in their credit card while in VR. Since web-payments reduces the friction to pay content creators it feels important to expose this in Firefox Reality.
+
+Another filter here is looking for ways that our work encourages content creators. The Payments API is one example, but can AR tools be improved for the creation of content? Is there a spatial AR equivalent of Tilt Brush? What are good authoring tools?
+
+Another thing Mozilla does is simply hire artists directly and they contribute to the design vision by actively creating content for VR and AR. Part of what we're doing is actively hiring contractors and 3d artists to better express design.
+
+

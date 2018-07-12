@@ -1,0 +1,173 @@
+[
+
+{
+"title":"3D Scanning",
+"sponsor":"Author2",
+"art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1440&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2017%2F05%2Ftech_data_image.jpg%3Fquality%3D85",
+"descr":"3d reconstruction and tracking underpins much of the rest of the industry. There remain hard challenges here in computation, volume of data, sensor fusion, real time performance, pose recovery and so on.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, support, infrastructure"
+},
+
+{
+"title":"Semantic Segmentation",
+"sponsor":"VC",
+"art":"https://cdn-images-1.medium.com/max/1600/1*pKKYS17lOwPsreUVTak37g.png",
+"descr":"Distinct from relocalization it appears like there's quite a bit of value (and interest) in segmenting meshes into distinct objects and labelling those objects. This can be used for product search and discovery such as identifying vehicles, or products in stores. It looks like the value here is in providing more sophisticated machine reasoning at a higher level of abstraction - one that is more similar to how humans see and interact with the world.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, support, infrastructure, privacy, cloud"
+},
+
+{
+"title":"AR Relocalization Server",
+"sponsor":"VC",
+"art":"https://c1.staticflickr.com/3/2929/14309912719_d623ca0f72_b.jpg",
+"descr":"A private or cloud hosted service which provides relocalization support for AR clients. Clients would submit images, location information, point clouds and other data and get back exact pose information. This server could also bundle management of virtual objects as well (although that can be a separate service). A home, campus, organization or community could use a service like this to provide on-campus or on-site contextual navigation, information about the location of colleagues and suchlike. It seems likely that applications like this will emerge and that standards will be needed to allow interoperability between different clients and servers. There will also be privacy concerns. There's an expectation that companies like Apple or Google may attempt to provide relocalization services at city scale but there does seem to be an opportunity for private services for cases where organizations don't want to share the interior of their offices and every detail about their internal business affairs with a third party.",
+"style":"border:3px solid #008800",
+"tags":"usecase, support, infrastructure, privacy, cloud"
+},
+
+{
+"title":"AR Content Server",
+"sponsor":"VC",
+"descr":"The web is made up of different content providers that over time have become authoritative for certain kinds of data. Likely those same providers - such as Wikipedia or Yelp - will also become authoritative for place based information. Civic institutions at the State and Regional level will likely also want to offer actual place based data. For example cities will want to offer city layers that are authoritative for civic services, street signage, street closures, architectural visualizations, sewage, gas and electrical lines, parking regulations, garbage pickup schedules, zoning, speed limits, traffic lights and suchlike. There will likely be quite a bit of business in migrating existing datasets to AR. As well, like Wikipedia, such systems are likely to be as much social engineering as code - these systems represent processes for collecting, managing and sharing information with trust.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, support, infrastructure"
+},
+
+{
+"title":"Search",
+"sponsor":"",
+"descr":"Most likely services like Google will provide place based search, scoring and filtering on place based content. There's likely to be something of a competition or race between providers to provide authoritative baseline information for retail stores and venues. Place based discovery of trustworthy 'anchors' is critical for being able to branch out to other services. The Nike Campus for example may host their own place based data services but to discover that those services exist at that venue one will likely first use Google.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, support, infrastructure"
+},
+
+{
+"title":"AR Desktop",
+"sponsor":"Author",
+"art":"https://static.dezeen.com/uploads/2016/05/hyper-reality-movie-keiichi-matsuda-virtual-physical-reality-future-vision-media-concept_dezeen_936_0.jpg",
+"descr":"There appears to be some need for an augmented reality desktop where multiple agents written by different organizations can share visible real-estate without colliding or obstructing the view of each other. A user may have a weather agent in a corner of their visual field, and a navigation agent providing directions, a friend finder, a translation engine and other services all running and providing enhanced visual information at the same time. Some kind of shared operating environment provides services for these applications, sandboxes them, provides security and privacy for the user, and perhaps allows agents to interact with each other as well as the user based on user permissions. This may naturally fit into the role of a neutral third party to provide such a user experience. It requires agreement among agent developers to conform to API services offered by the desktop.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, support, infrastructure, desktop"
+},
+
+{
+"title":"Professional Authoring Tools",
+"sponsor":"",
+"descr":"Unity3D and such tools appear to be the dominant way that developers will build AR experiences. However AR experiences need to work together and yet be sandboxed from each other. These tools will have to adapt to work within more open environments and that will mean being more standards based.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, authoring, annotation, user"
+},
+
+{
+"title":"WYSIWYG Authoring Tools",
+"sponsor":"",
+"descr":"The term WYSIWYG is used to distinguish between professional developer tools and consumer developer tools. The emphasis at a consumer level is on authoring in context and being able to download behaviors plug them together without being a programmer. Emerging VR tools such as SoundStageVR, Tiltbrush and Supercraft could eventually support AR as well and are examples here. This extends beyond placing geometry and post-it notes. For example a volunteer firestation may have lightweight training tutorials attached to various pieces of equipment so that volunteers can engage in self directed learning. Tutorials could be written by bespoke local web shops but there may be a demand for being able to do some of this without paying a third party. There's something of an implication that mass market consumer authoring tools take care of issues like persistence, hosting, sharing - so in some senses these tools are literally allowing users to work in place on the real world and share instantly - which in turn implies a set of back end services.",
+"url":"https://supermedium.com/supercraft",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, authoring, annotation, user"
+},
+
+{
+"title":"Identity Personalization",
+"sponsor":"",
+"descr":"A tool which lets you make an avatar.",
+"style":"border:3px solid #ccffee",
+"tags":"usecase, authoring"
+},
+
+{
+"title":"Shared online spaces",
+"sponsor":"Mozilla",
+"art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1920&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2018%2F02%2Fedgybees-hero-01.jpg%3Fquality%3D85",
+"descr":"Shared spaces as a foundation for other experiences. AR or VR. Mozilla Hubs is a good example here.",
+"style":"border:3px solid #ff0000",
+"tags":"usecase, social, multiplayer"
+},
+
+{
+"title":"Multi Participant Field Telepresence",
+"sponsor":"",
+"style":"border:3px solid #ccffee",
+"art":"http://imagesvc.timeincapp.com/v3/foundry/image/?q=70&w=1920&url=https%3A%2F%2Ftimedotcom.files.wordpress.com%2F2018%2F02%2Fedgybees-hero-01.jpg%3Fquality%3D85",
+"descr":"Allows an operator in the field to share site specific contextual telepresence with other participants who are remote. For example Search and Rescue teams could be in the field wearing appropriate cameras and relaying a view of their location back to other experts who are providing suggestions.",
+"url":"http://www.thedrive.com/aerial/18872/ar-start-up-edgybees-raises-5-5m-to-bring-ar-platform-to-uav-first-response-industry",
+"tags":"usecase, social, multiplayer, app, civic, crisis, emergency, real-time, collaboration"
+},
+
+{
+"title":"Mind Palace",
+"sponsor":"",
+"style":"border:3px solid #ccffee",
+"art":"https://www.wikihow.com/images/thumb/7/7b/Build-a-Memory-Palace-Step-10-Version-2.jpg/aid47287-v4-728px-Build-a-Memory-Palace-Step-10-Version-2.jpg",
+"descr":"A personal application which provides a way to organize your own digital exhaust; photos, receipts, articles, favorite places and suchlike. Not necessarily AR.",
+"tags":"usecase, education, information, organization, app"
+},
+
+{
+"title":"Support",
+"style":"border:3px solid #ccffee",
+"descr":"Hardware such as AR glasses, 3d trackers and reconstruction, segmentation strategies, rendering techniques, datastores, cloud services, account management, context and noise filtering tools, frameworks and build tools, art assets, search, operating systems, grammers and programming environments and lower level tools not used by mass markets directly.",
+"tags":"category",
+"children":["?tags=support"]
+},
+
+{
+"title":"Authoring",
+"style":"border:3px solid #ccffee",
+"descr":"Authoring includes basic location markup (points, post-it notes, virtual object placement, region demarciation, indicating places, indicating trajectories of people or objects.",
+"tags":"category",
+"children":["?tags=authoring"]
+},
+
+{
+"title":"Social",
+"style":"border:3px solid #ccffee",
+"descr":"Social includes ideas like avatar and personal identity personalization for sharing, persona specific badges or tattoos, mixed reality conferences, meeting spaces, live events, concerts, dating. Concierge and hospitality telepresence (which can overlap with education and field operations). Therapy. Collaborative planning, crisis response war rooms with operators in the field.",
+"tags":"category",
+"children":["?tags=social"]
+},
+
+{
+"title":"Education",
+"style":"border:3px solid #ccffee",
+"descr":"Education includes visualization of existing knowledge, navigational aids, reminders associated with places or context, fences associated with locations in space, safety warnings about potholes cliffs, one way roads, parking. Tutorials such as how to use medical equipment. Assistive services such as how to reset a dislocated shoulder. Telepresence more broadly such as just-in-time remote domain expertise. Can also include mind palaces. Virtual personal agents and advisors.",
+"tags":"category",
+"children":["?tags=education"]
+},
+
+{
+"title":"Entertainment",
+"style":"border:3px solid #ccffee",
+"descr":"News and situational vignettes such as recreations of historical events, interactive games, collaborative art, music, choreography, future arts, sports.",
+"tags":"category",
+"children":["?tags=entertainment"]
+},
+
+{
+"title":"Markets",
+"descr":"Search, brokerages, barter and trade (introduce buyers and sellers). Signaling and advertising (indicating locations in space where offers exist). Shopping, huntihng, gathering. Money related services.",
+"tags":"category",
+"children":[ "?tags=markets"]
+},
+
+{
+"title":"Enterprise",
+"descr":"Part picking, enterprise scale data visualization, virtual product interaction, staff training, staff shared context or sense making.",
+"tags":"category",
+"children":[ "?tags=markets"]
+},
+
+{
+"title":"Use Cases",
+"descr":"These are broken out by categories. Border color indicates number of people who think this is a good idea. Red indicates work that is already being done.",
+"tags":"chapter",
+"children":[ "?tags=category"]
+}
+
+]
+
+
+
+

@@ -1,0 +1,48 @@
+Interview with a VC
+
+Thoughts about the idea of the AR Cloud? What is it? Does it have value?
+
+Generally speaking I follow Matt's thinking here. This was a term that Matt and Ori invented. From Matt’s point of view it’s the computer vision infrastructure that lets AR experiences work across devices and sessions. A slam map of the world. He points out that in his mind it has little to do with content itself although the term is starting to be used to cover that topic. It does include the semantics (the segmentation of the world into objects) and will include the prediction (the future position of objects). The intent is to provide geometry support for Augmented Reality, for neural networks and for applications. Developers want to allow content to be pinned to different kinds of subjects with different kinds of relationships. For example a room could contain multiple tables, each table with content relative to itself, permissioned to different users. Query filters in this case could be gps location, geometry, identity of the user, and a layer identifier such as “pokemon go”. Interestingly in these scenarios 6d.ai is using neural nets to segment meshes. They’re able to use a monocular rgb camera in combination with ARKit to create a software depth camera and then segment the scene (disambiguating a table or other objects from the general background). 
+
+Another way of putting all this is that Matt sees their offering as an API for developers to access the real world. To know where they are, to have a semantic understanding of features in an area, to have meshes of features in an area.
+
+What are your use cases and customers?
+
+It is hard to test use cases because the hardware is not there. Today AR is most effective as a feature of a regular app rather than the starting or entry point for an experience. Early use cases are conventional phone applications such as navigation which then have a little bit of AR glued onto the side that is used briefly (such as for a heads up view for orientation and context).
+
+Early markets look to be vertical and industrial such as training and simulation. We see this with Amazon factory floor part pickers and many other kinds of settings where employees are wearing these devices for hours at a time and or work with simulators to learn new field tools. These save real dollars for businesses, such as in reducing training time. However each application built in this space is custom and it’s not possible to build a single app for millions of customers yet. If the cost of developing these experiences can be reduced then there may be significant opportunities here for AR developers. Salesforce productized how to manage a sales team, and in a similar way there needs to be a productization of field service applications such as a fieldservicear.com .
+
+AR Games or consumer experiences are currently the “long tail” of apps. They need to have story narratives that map better to the concept of an augmented world. Things like virtual pets, farmville, fairies, “the borrowers” (movie), “monsters inc” (movie), or other such stories could do extremely well because they have a natural phrasing of being a bridge between worlds.
+
+What are your Data Privacy Policies?
+
+We think about data sharing a lot. We see it as a data stewardship role.
+
+Today it is a hypothetical problem because there is no data exhaust yet. And it is a problem that exists at several layers. There are no open data standards. [ Perhaps there is an opportunity here to define a number of goals that vendors should adhere to with respect to privacy? ]
+
+Google for example was worried that with Tango the FBI would start fishing for data such as asking for any customers that had 40 gallon drums (which can be a sign of bomb making).
+
+One core value is that vendors should tell the user everything they are going to do with the data. This is more of a values based decision than a legal or cultural expectation.
+
+Another core value is good data management, no unencrypted passwords, everything is hashed.
+
+Another core value is making the information in the cloud not personally identifiable. There are different philosophies here by different companies. Google for example aggregates your information and then compares that against other users to deliver you a better service. Microsoft tends to have a more privacy centric model where they may hold your data but encode it such that they themselves cannot use it. In the former there is an analytics process, in the latter the role is more simply of holding the data for you.
+
+One issue is understanding and encoding social norms around data. Capturing photos in public spaces is conventionally acceptable for example. How do you technically implement societal norms? For example I'm at your house wearing my Magic Leap version 5 and I walk into the bathroom. I've now captured your private spaces and it’s not clear who owns that, you, me, Magic Leap? How can this be determined? [ Maybe we can establish a convention that a specific QR Code marks an area as private? ]
+ 
+Meta process? How do you identify your customers and your markets? How do you decide what you work on?
+
+One mistake was developing our own opinion of the future and trying to build that. Even when you are right, which we were, your timing can be way off. A better way to drive development is to ask “What do I know that somebody will buy today?”. To find actual customers and pursue customer driven development. In our case we have 40 plus customers ranging from big OEMs, content partners, content tool developers. We know that if we can deliver a product they will buy it today. This is an iterative process targeting current customers. We will only will target big customers initially - either millions of devices and or millions of dollars. This process is known as “customer development”. We believe that consumer retail is the long tail right now and that market is not ready but that there are significant players we can deliver to anyway.
+
+The value of this approach is that there is an ecosystem. Your partners have a vested interest in supporting you. There’s a network effect and a value chain. Companies (such as Mozilla) will probably find they have more success working with OEMS, new hardware developers, vertical market and enterprise customers with well defined needs than pushing WebVR out to random developers in the next 9 to 12 months. 
+
+There is an industry wide acceptance that there will be a transition from glasses to AR. All those major platform companies are aware of how much is lost or gained on execution of transition. Microsoft was badly stung by the mobile transition for example. And it’s clear there will be winners and losers. In fact hundreds of billions of dollars of wins and losses are riding on this transition. Existential bets such as on Magic Leap are sensible in this regard.
+
+Closing thoughts
+
+Organizations that can provide a bridge to AR for new OEMs or that can find ways to disrupt device lock-in will be incredibly valuable.
+
+Overall we saw the same thing for smartphones. The question was why would I use a smartphone when I have a PC? The value wasn’t in any single application but in being able to do most of the things a PC could do plus a few more special things.
+
+Developers are struggling. They want to be able to put down persistent stuff, they want multiplayer, they want physics and occlusion, cross platform. The ‘method of loci’ [ https://en.wikipedia.org/wiki/Method_of_loci ] comes to mind here.
+

@@ -1,0 +1,21 @@
+{
+"title":"Analysis",
+"descr":"",
+"tags":"chapter",
+"children":[
+
+{
+"title":"Features",
+"descr":"<ul><li>field of view</li><li>number of users</li><li><li>criticality from fun to emergency response</li><li>duration of use</li><li>state persistence</li><li>graphic quality relevance</li><li>passive or interactive</li><li>where in a services stack</li><li>timelines; solves urgent problems or not?</li></ul>",
+"tags":""
+},
+
+{
+"title":"Filters",
+"descr":" Is the app cross platform? Apps should work between users on multiple devices ( iOs and Android ) and also run on desktops ( Firefox, Chrome ) and also run on different HMDS ( Oculus Go, Vive ).  Do apps protect user privacy? Apps must clearly notify users of privacy related issues (capturing geometry, audio). This also applies to corporate applications.  Does the app solve a real issue? Many AR projects seem to be worse than nothing. Identifiable pain points, measurable reduction on those problems is key.  Time pressures often lead users to making poor choices. Can an AR app step in quickly enough to solve an issue better than one could otherwise given limited time?  Personal interest.  Are there customers today? Customer driven development. (OEMS etc) Drives DAU What is the story - > what is the world in 3 to 5 years -> what do we have to do to facilitate it or get in front of it ",
+"tags":""
+}
+
+]
+}
+

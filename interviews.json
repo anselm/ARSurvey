@@ -1,0 +1,46 @@
+{
+"title":"Interviews",
+"descr":"",
+"tags":"chapter",
+"children": [
+
+{
+"title":"Interview with a Designer",
+"descr":"//interview_designer.txt",
+"tags":""
+},
+
+{
+"title":"Interview with a Developer",
+"descr":"//interview_developer.txt",
+"tags":""
+},
+
+{
+"title":"Interview with a Developer Advocate",
+"descr":"interview_developer_advocate.txt",
+"tags":""
+},
+
+{
+"title":"Interview with an Executive",
+"descr":"interview_exec.txt",
+"tags":""
+},
+
+{
+"title":"Interview with Mozillian",
+"descr":"interview_mozilla_designer.txt",
+"tags":""
+},
+
+{
+"title":"Interview with a VC",
+"descr":"interview_vc.txt",
+"tags":""
+}
+
+]
+
+}
+

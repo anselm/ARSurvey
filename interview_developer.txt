@@ -1,0 +1,28 @@
+This was an interview with a full time AR developer in Chicago.
+
+AR Cloud?
+
+The AR cloud is nebulous of course. The first thing I think about is the privacy issues. In its current incarnation the platform owners will dominate because in wearing eyewear you are not going to want to open up different apps all the time. The apps should be all be co-existing at the same time rather than in separate apps. I want to be able to see that my partner is down the road - while I am looking at how an ikea chair will look in my place. The tension is not so much with the cloud but with the idea of apps having to context switch. Different cloud providers will have to find a way to co-exist. It's a form of app-fusion that is not well defined yet.
+
+Pain points?
+
+Organizingn information is very hard - email, twitter, news notifications. There's a fear of missing out because there are so many input channels and an inbox that grows and grows. There's just no way to plow through it automatically. There need to be power tools for dealing with all of these information sources - not just for email but for all of the channels that I'm subscribed to.
+
+Privacy?
+
+How do you ever prove a jurisdiction over a piece of space? Who owns the "rights" over the Hyatt? Does the Hyatt own the rights to augmentations over their hotel? In what layer are the legal jurisdictions defined? What are the legal policies and ramifications of multiple parties each with some legal claim to decorate a portion of space with their information?
+
+What would you like to see?
+
+A really good telepresence app with good eye-contact, gestures, hand movements, body language. For me closeness means low latency and high interactivity. It is hard to lie to somebody who is standing right in front of you - there's something mnore honest and candid about low latency high bandwidth connections that seems hard to reproduce digitally.
+
+How do you validate your ideas?
+
+Fairly normal process including building a prototype, testing, compare against other baseline experiennces that are similar. Wash, rinse, repeat.
+
+AR Dystopia?
+
+Super realistic first person AR shooters come to mind - mostly because they could be highly distracting. Kids seem to have a high stakes death wish sometimes in terms of how hard they can fixate or focus on something. Somebody will get run over by a car because they are looking at augmented content. Will people bemore distracted by heads up displays than by cell phones? It is unclear. Another fear is that people are already distracted by the always on nature of the information stream - will people have a hard time connecting to one another when their real world view is decorated with virtual objects that are unrelated to their current physical embodiment? Or will that new richer context become a new way to share and bring closeness?
+
+
+

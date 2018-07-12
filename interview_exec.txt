@@ -1,0 +1,52 @@
+Interview with an Executive
+
+Any thoughts an AR Cloud? What is it, does it have value, will it exist?
+
+It’s hard to disambiguate personal opinion. It's set of data that I can bring down and apply to a spatial context that adds value. Yelp is a good example - "how far is the restaurant?", "Where is the nearest falafel place?".
+
+There will eventually be some kind of geospatial database that builds a persistent representation of the world. It will help you do all the little things that are often a hassle such as finding the restroom - those dumb little things that you don't want to ask. Data that you can apply onto the real world, that has value, confers an advantage, and is available in various contexts such as VR even if you are not actually in that location.
+
+What's interesting is not just a map of the present but understanding how the world changes over time, showing a temporal context. There's a video on the Seattle boom as viewed from the Space Needle over a period of a couple of years. In this video you can watch a new Rome being built - there's a deeply satisfying sense of context. Even more deeply Seattle was carved by Glaciers and it would be nice to see that larger time scale as well.
+
+What are some pain points for consumers?
+
+Communication and collaboration in conference calls can be a pain point. Connecting people together is a hassle - it doesn't always work well - and experiences can be broken because of a lack of connectivity. You have a variety of hardware devices, browsers, networks. Have you ever been in a conference call where the first 15 minutes was spent debugging some of the users hardware? Some people also have trouble with technology and they can't navigate the technical space easily. There is value in a simple cohesive space that is hard to screw up or get wrong. Face time is conceptually what we're designed to deal with, much easier for humans. Time pressures are also a big factor in frustrations. It's not just communicating something but communicating something in a limited amount of time.
+
+For example imagine being able to do a collaborative trip planning between several individuals, you could have a shared map of an itinerary (such as to say Rome or New York) and see your hotel and the attractions you want to visit. There could be a better sense of how far apart things are from each other. This same idea could also be used in real-time while you are afield. Being able to see where a nearby lunch place is and being able to see when various attractions close. The time pressures are what create some of the need to negotiate and navigate through problems quickly. With better information it is possible to fill time gaps better.
+
+Thoughts about data sharing policies?
+
+Mostly to just give the user control. Not so much to prevent information sharing but to make sure the user understands and can control what is being shared.
+
+How do you find users?
+
+It is a new space and it is hard to find users. An approach is to try a variety of ideas and collect feedback. To look for signals.
+
+For example we may write a simple whiteboarding app for VR and we may find that it may take off so then we would double down on that.
+
+Another approach is to go out and work with content partners. Effectively find somebody else who has users and then work with them to build out their channel.
+
+We also already know that there are a set of behaviors that people like which can translate to VR and AR. People like to personalize themselves online, so we can cater to those basic ideas and see how users respond - or partner with people working in those areas.
+
+What kinds of thoughts do you have around user testing and research? Does it help or hinder at this point?
+
+We're going to start doing user testing (now that we have working technology). We do want to do things like streamline an onboarding experience for VR so that we do have larger audiences to test against.
+
+There are some early signals that the sense of 'presence' and engagement is higher in VR. We don't have formal metrics here yet. Of course we do have general metrics for firefox overall such as "daily active users", and "active session time".
+
+The velocity of development here has outpaced user studies. We do now see an emerging internal 'product management' role that is strategic, helping set future direction and focused on winning longer term battles (rather than merely tactical).
+
+Some scenarios:
+
+An AR mixed telepresence environment where you can have a physical room with real people and virtual people together in the same space.
+
+AR telepresence in the context of a field worker in the field with domain experts in offices or in a conference room. They're able to see through the eyes of a person in the field and also mark up the view of the person in the field in order to provide hints and help for that field worker. Another variation on this is that the field worker is a robot or a drone with multiple remote parties controlling that robot. The general goal here being real time access to subject matter experts and providing situational context to all participants. Any situation that has time pressure and high risk can benefit from this. Another example is a search and rescue operation, or an emergency construction project. Other similar kinds of projects include Park Rangers and Fire Towers as a scenario - many participants each with different points of view and each benefitting from being able to share and communicate context quickly. First responders in a situation such as an earthquake often need to mark up the landscape (to indicate a house was searched already for example). There are also opportunities for remote participation - where even though there are people on the ground there is still more 'cognition' and analysis needed than local resources can muster. Ushahidi and emergency crisis response situations can also fall under this umbrella (where there are one or more field commanders managing people in the field or available help that is not on-site). There are also slower emergencies such as the homeless crisis we are seeing now - which although not moving as quickly as a forest fire or earthquake are still having large effects on people. In general the goal seems to be to take in many sources of data, synthesize a view. There are questions here about the simplest possible MVP.
+
+Machine repair has been a common scenario but another more time sensitive example can be rendering medical assistance in the field in real time. For example CPR, where to apply pressure, what to look for, how to make sure there are no breathing obstructions. Or how to visualize and see internal organs in case of a wound or injury.
+
+Operator in the loop training simulators have long been a mainstay of the promise of VR and AR. This also applies to learning how to deal with injured people. One can imagine CPR dummies that are augmented. Also, training doesn't only apply to professionals. Volunteers or novices can benefit from experiential learning on how to use new equipment (such as training volunteers how to use a new pumper at a volunteer run fire-station). Showing where valves and controls are on the real firetruck can be useful.
+
+What is an MVP for a training authoring tool? Another need here is some kind of authoring tools so that a volunteer can create an augmented reality trainer. They may want to be able to have big arrows and animated graphics pointing to parts of machinery. They may want to indicate a process that is animated over time. How hard is it to build a sailboat trainer for example?
+
+There are also non spatial domains - such as teaching math concepts. One can imagine an interactive scenario as well, where teachers can use their hand motions to draw out lines in 3d space - to express curves and shapes for the students. This gets closer to a 3d manipulation of virtual matter as a communications tool. Bolt for Unity is an example of making authoring and composition easier for non-technical people.
+

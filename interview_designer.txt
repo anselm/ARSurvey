@@ -1,0 +1,43 @@
+Interview with a Designer
+
+What is the AR Cloud?
+
+Doesn't know what the AR cloud is. You go into a conference and you see their names and their linkedin bio’s above their heads for example.
+
+Are there pain points?
+
+People don't want to hang out with strangers for no reason. May go to a book club or something organized around an interest but for women there’s a risk of harassment. Half of women have been sexually harassed in social VR and about 20 percent of men have been exposed to homophobia or violent threats. As well interfaces make assumptions about technical proficiency, typically having game like control setups. These can be extremely difficult to use. The controllers are difficult, the navigating of menus, modal popups. The Altspace menu was a good one because it was persistent and in fact persistent menus is a critical best practice.
+
+However circling back on the first issue, people say is "what is the point" or "why are these people here" and "who are they"?. Being in a social VR space for no reason can be profoundly uncomfortable. In my research I found that some of the users didn't want to talk to anyone. It’s arguable that the space itself is contributing to that sense of alienation. Some of the users wanted to be given a mission - to have a more game like experience.  In a sense there is a set of expectations about VR. Some of these expectations were surprising - such as desire to have AI robots everywhere telling participants what they could do. Typically more goal oriented participants wanted specific goals. There’s a quick assessment of the space, in one case a user used a metaphor of a menu - you can see the ingredients, you can see if it was built for you.
+
+Thoughts about Data Sharing?
+
+I have been influenced by High Fidelity. You share all of your information with this third party as a baseline (email, contact info and suchlike) and then whenever you go to any virtual place in High Fidelity you specify what the policy is on a place by place basis. Philip Rosedale made a 3 minute video on the data sharing policy which is available online. Privacy of course is a huge deal and it is going to get worse. I partnered with a school psychologist and talking about screen time and keeping kids online. This psychologist e was the person they called when a kid runs off with a predator. So there’s an online safety -issue as well and we need to raise awareness. Beyond this biometric data can be used to predict internal mental states, predict what one is interested in. Pupil dilation can indicate what images one responds to. This could affect insurance and in other countries could be a risk. For example sexual orientation predictions could be risky in some countries.
+
+Why do user testing?
+
+I’ve generated a 50 page report after interviewing 13 people. We build a bridge between users and creators. A good example of this is looking at what appears to be an emerging problem of "why women don't like social VR". If you're going to build an experience then you have to see the invisibility of the way that things are constructed around us. Women behaved the same in VR as they do in real life. For example women try to avoid being harassed on the street. They walk on the perimeter, they do not talk, they change the way they dress. In VR women do the same things. The social spaces in VR are constructed as a reflection of who is on the team, who has a leadership role, who has a voice. The role of user testing is to bring in different groups of people to test it. Every team needs to have somebody on the team who is something like an industrial designer, somebody willing to go out and get those insights. If the architecture is wrong then the space doesn't work. Even small things, such as if a table top bar or surface is at correct height then people will stay at that table, else they will go elsewhere.
+
+I’m doing a study of social VR spaces, recruiting people from the hospitality industry. This includes restaurateurs, architects. And I’m getting good feedback on what makes a space feel private, what makes a space feel safe. How does the space signal if it is private or public, what are the physical cues. Users will tell you things that people on your team won’t tell you.
+
+How do you find fears doubts concerns of users?
+
+This is the difference between quantitative and qualitative research. It is a learned skill. You have to reassure people that they cannot offend you. You tell everybody that you didn't build it, that it won’t hurt your feelings if they criticize the product. You send people multiple cues that they cannot hurt your feelings here. Listen carefully, watch people demo in VR. Especially notice and watch see what happens right before people choose to leave. Sometimes people won't be able to say what’s bothering them. By noticing human reactions quickly and being very observant you can detect these mood shifts and inspect them. For example I had a situation where I saw a woman physically recoil while wearing a VR helmet. It turns out she had walked into a room and somebody had said “well hello beautiful” and it was surprising to her. In general it feels like the right thing is to hire people who can do qualitative analysis, make transcriptions. It is hard to rely on memory so this can be a long slow process, it’s important to get direct quotes, to record the interactions. To make sure to ask people if there was anything else they wanted to add. There was an interesting Bill O’Reilly interview where once he thought the recorders were stopped he really cut loose with his thoughts [ http://www.philly.com/philly/entertainment/bill-oreilly-fox-news-sexual-harassment-lis-wiehl-emily-steel-michael-schmidt-20171023.html ].
+
+Of course there can be downsides to the user testing process. It can lower velocity. But of course going at a high velocity in the wrong direction can also be an issue.
+
+
+What are some apps you would like?
+
+Would be very interested to have tools to prototype and build social VR spaces that that don’t encourage the same behavior as real world mainstream culture. To try removing markers of gender, class, race, to explore seeding a space with a specific culture and seeing if it affects newcomers. The only way to make social VR safe is by using culture to do it. Blocking or muting tools are not good enough. We need new symbols, ceremonies, language, myths to say “this is how we behave here”. Everybody exerts social pressure on new people. There is a book about the culture of Burning Man that is worth reading on what makes a good culture and what makes a strong culture [ https://burningman.org/culture/philosophical-center/academics/ ]
+
+Another interest would be to do a study that explores if creativity and collaboration is better in VR. IDEO could do design thinking workshops in VR. For example perhaps could redesign a DMV or an airport in VR collaboratively faster than using sharpies and post-it notes as is done today. Is being able to work in 3d better? Institute for the Future also is a good candidate for this kind of work. The goal here would be to collect evidence and publish data to vaidate or refute the hypothesis. To be able to answer questions like “did this person participate?” or “are popcorn style contributions better than a formal process?”. Would an in-experience “draw with fingers for basic construction” kind of tool be helpful?
+
+The challenges are hardware based. We simply don’t have the hardware to throw a lot of people into a VR scenario right now. People don’t have the tools in their offices or homes.
+
+Closing notes.
+
+On an unrelated closing note it’s also worth looking at Library Sciences and the idea of the “principle of serendipity” in building VR spaces. You may be looking for one book but in your process you find other books. Also Intel’s Melissa Gregg [ https://homecookedtheory.com/ ] is looking into smart home automation and this is a good candidate for VR interfaces (with respect to adding virtual reality verbs to a room that people can actionably interact with). The term that seems to have popped up in our conversation is the idea of a “smart cloud” and that may be a keeper as well.
+
+
+

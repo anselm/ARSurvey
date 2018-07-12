@@ -1,0 +1,102 @@
+{
+"title":"Questions",
+"descr":"",
+"tags":"chapter",
+
+"children": [
+
+{
+"title":"What do you think of the idea of an Augmented Reality Cloud?",
+"descr":"Remarks: This question is somewhat prejudicial, implies something by being asked, but I want to create a focus around strong AR applications and even in being inaccurate this question can help spark a response.",
+"tags":""
+},
+
+{
+"title":"What professions may have a ‘vested interest’ in AR?",
+"descr":"Here I’m interested in whom is seen as most impacted by AR. Generally I’m expecting to see a replica of traditional stakeholders - including the general public, industrial users, advertising agencies, mass market and vertical market app developers including game developers, cloud service providers, database vendors, hardware device builders, fashion designers, usability experts, psychologists, user interface designers, privacy experts, patent and copyright lawyers, VCs. I also see OSHA and other agencies increasingly being stakeholders.",
+"tags":""
+},
+
+{
+"title":"What novel uses do you see of the AR cloud?",
+"descr":"Here I’m fishing for new ideas about how to use AR. I imagine we’d the usual ideas. Navigation - finding products in a store, finding friends, walking directions. Story telling - historical recreation, projections of the future (such as architecture). Games. Telepresence - access to remote expertise. Virtual meetings. Technical guides. Here I’m really trying to suss out expectations - How do we think AR will be used? What assumptions do we have right now about how AR will be used? What are example use cases we imagine? In this question I will drill down to actually trying to walk through scenarios as a user would experience them.",
+"tags":""
+},
+
+{
+"title":"What are user problems or pain-points today in solving day to day problems?",
+"descr":"Here I want to see how well developers understand user needs. The hope is that this will map to ideas that could be satisfied using AR.",
+"tags":""
+},
+
+{
+"title":"What kinds of feelings do you want to produce in your customers?",
+"descr":"I expect feelings may include not being frustrated, or a feeling of competence and mastery, or a feeling of being able to accomplish something more easily, or understand something more quickly than otherwise.",
+"tags":""
+},
+
+{
+"title":"Do you think your users will prefer to use your technology as opposed to say cell-phones or in addition to?",
+"descr":"Here I want to understand if this will be a replacement for older technology such as mobile phones or in addition to? Is there any specific evidence or justification that that this will be the case?",
+"tags":""
+},
+
+{
+"title":"What is your data sharing policy?",
+"descr":"How do you share data with users, how do users share data with each other, how do you expect people to use this data, where is the data stored, can advertisers see it, can users share data with each other?",
+"tags":""
+},
+
+{
+"title":"How do you decide what code to write or build?",
+"descr":"I’m trying to get a feeling for if they have a user centered development process or not without asking directly first.",
+"tags":""
+},
+
+{
+"title":"How do you decide or find out who are the users for your product?",
+"descr":"Here I continue down that path. I’m looking to see if they do scenario modeling, have user stories, have user persona and how detailed those scenarios are.",
+"tags":""
+},
+
+{
+"title":"Who are your users?",
+"descr":"Pure curiosity - trying to get a sense of kinds of users to widen the demographic.",
+"tags":""
+},
+
+{
+"title":"How do you find or identify user stories about how the users may use your product?",
+"descr":"This question has an implicit answer in it - I’m prejudicing the question to see if developers will use the same language in response.",
+"tags":""
+},
+
+{
+"title":"How do you test your ideas against your users before you build the ideas?",
+"descr":"Curious about the creative process and discovery.",
+"tags":""
+},
+
+{
+"title":"Can you share any kinds of examples, scenarios or stories about a users experience?",
+"descr":"If they have a process this is where we can collect some value. Part of this effort is to collect actual stories and actual scenarios for actual products to typify the space.",
+"tags":""
+},
+
+{
+"title":"How do you discover the kinds of fears, concerns or doubts that may concern your users?",
+"descr":"Do you have a process here? I’m looking to hear about privacy or legal concerns - but also other concerns. Pain points are more productive than expectations as well. I'm also interested in AR dystopias.",
+"tags":""
+},
+
+{
+"title":"How do you feel user research hinders, or has little effect on your development and design process?",
+"descr":"I want to validate the thesis with counter-points looking at the weaknesses of usability studies.",
+"tags":""
+}
+
+]
+
+}
+
+
