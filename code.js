@@ -186,7 +186,12 @@ console.log(card_style);
   static paint(node) {
     Paint.raw('<div style="clear:both">');
     Paint.h1(node.title);
-    Paint.raw('<div>'+node.descr+'</div><br/>');
+    if(node.url) {
+      Paint.raw('<a href="'+node.url+'">link</a><br/>');
+    }
+    if(node.descr) {
+      Paint.raw('<div>'+node.descr+'</div><br/>');
+    }
     if(!node.children)return;
     node.children.forEach((q)=>{
       DB.query(q).forEach( Card.paint_children );
